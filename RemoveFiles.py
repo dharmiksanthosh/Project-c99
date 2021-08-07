@@ -56,7 +56,6 @@ def main():
     else:
 
         print(f'"{path}" is not found')
-        deleted_files_count += 1
 
     if deleted_files_count == 0 and deleted_folders_count == 0:
         print('\nNo Old Files were Found\n')
